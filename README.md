@@ -32,7 +32,7 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ros2 launch lidarslam lidarslam.launch.py
 ```
 
-4. Launch RViz and load the (`mapping.rviz`)[lidarslam/rviz/mapping.rviz] configuration:
+4. Launch RViz and load the [`mapping.rviz`](lidarslam/rviz/mapping.rviz) configuration:
 ```
 rviz2
 ```
