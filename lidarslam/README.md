@@ -1,16 +1,14 @@
 lidarslam_ros2
 ====
-![foxy](https://github.com/rsasaki0109/lidarslam_ros2/workflows/foxy/badge.svg)  
-![humble](https://github.com/rsasaki0109/lidarslam_ros2/workflows/humble/badge.svg)  
-ros2 slam package of the frontend using OpenMP-boosted gicp/ndt scan matching and the backend using graph-based slam. 
+ROS 2 SLAM package of the frontend using OpenMP-boosted gicp/ndt scan matching and the backend using graph-based slam. 
 
 mobile robot mapping  
-<img src="./lidarslam/images/path_tukuba.png" width="640px">
+<img src="./images/path_tukuba.png" width="640px">
 
 Green: path with loopclosure  
 (the 25x25 grids in size of 10m × 10m)
 
-<img src="./lidarslam/images/map_tukuba.png" width="640px"> 
+<img src="./images/map_tukuba.png" width="640px"> 
 
 Red and yellow: map
 
@@ -135,11 +133,11 @@ ros2 launch lidarslam lidarslam.launch.py
 ros2 bag play -s rosbag_v2 hdl_400.bag 
 ```
 
-<img src="./lidarslam/images/path.png" width="640px">
+<img src="./images/path.png" width="640px">
 
 Green: path with loopclosure, Yellow: path without loopclosure
 
-<img src="./lidarslam/images/map.png" width="640px">
+<img src="./images/map.png" width="640px">
 
 ### The larger environment
 
@@ -160,11 +158,11 @@ ros2 launch lidarslam lidarslam_tukuba.launch.py
 ros2 bag play -s rosbag_v2 tc_2017-10-15-15-34-02_free_download.bag 
 ```
 
-<img src="./lidarslam/images/path_tukuba.png" width="640px">  
+<img src="./images/path_tukuba.png" width="640px">  
 
 Green: path  
 
-<img src="./lidarslam/images/map_tukuba.png" width="640px">  
+<img src="./images/map_tukuba.png" width="640px">  
 
 Red and yellow: map
 
