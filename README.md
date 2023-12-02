@@ -43,3 +43,7 @@ rviz2
 ros2 service call /map_save std_srvs/Empty
 ```
 **Note:** Map files will be saved to the path pointed by the current terminal window.
+
+## Similar Repositories:
+
+https://github.com/Tinker-Twins/LIO-SAM-Robot
