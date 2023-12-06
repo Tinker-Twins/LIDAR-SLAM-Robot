@@ -12,6 +12,7 @@ ROS 2 Packages for Testing LIDAR-SLAM on a Robotic Vehicle with 3D LIDAR.
   cd ~/ROS2_WS/src
   git clone https://github.com/Tinker-Twins/LIDAR-SLAM-Robot.git
   cd ..
+  rosdep install --from-paths src --ignore-src -r -y
   colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release
   ```
 
